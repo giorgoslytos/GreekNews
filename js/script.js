@@ -5,7 +5,6 @@ $(document).ready(() => {
     url:
       "https://newsapi.org/v2/top-headlines?country=gr&apiKey=3ae61f29fda84c3cbc229339d87d5787",
     success: response => {
-      console.log(response.articles[5]);
       for (article of response.articles) {
         let publishedDate = new Date(article.publishedAt);
         let timePassed = convertMS(
