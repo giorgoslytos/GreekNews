@@ -1,4 +1,3 @@
-//"https://newsapi.org/v2/top-headlines?country=gr&apiKey=3ae61f29fda84c3cbc229339d87d5787"
 $(document).ready(() => {
   $.ajax({
     method: "GET",
