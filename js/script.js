@@ -23,7 +23,6 @@ $(document).ready(() => {
           (article.description !== null
             ? article.description
             : "Περιεχόμενο μη διαθέσιμο") +
-          "abc" +
           "</p>\
               <div class='d-flex justify-content-between align-items-center'>\
                       <div class='btn-group'>\
